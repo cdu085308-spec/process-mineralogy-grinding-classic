@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 st.set_page_config(
-    page_title="工艺矿物学磨矿分析系统 · 经典版",
+    page_title="工艺矿物学磨矿分析系统 · 第一版",
     page_icon="⚒",
     layout="centered",
     initial_sidebar_state="collapsed",
@@ -43,7 +43,7 @@ if "analysis_done" not in st.session_state:
     st.session_state.analysis_done = False
 
 st.sidebar.markdown("# ⚒ 磨矿分析系统")
-st.sidebar.caption("经典版 v1.0")
+st.sidebar.caption("第一版 · 基础功能")
 st.sidebar.markdown("---")
 page = st.sidebar.radio(
     "功能菜单",
